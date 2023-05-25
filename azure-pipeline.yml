@@ -41,7 +41,7 @@ stages:
          downloadPath: '$(System.DefaultWorkingDirectory)'    
     - task: AzureWebApp@1
       inputs:
-        azureSubscription: '$(azuresub)'
+        azureSubscription: 'mbaiye (867aef5c-2a22-41bd-ab55-16b47d91df40)'
         appName: 'teamdevops'
         package: '$(System.DefaultWorkingDirectory)/**/*.zip'
         runtimeStack: 'NODE|14-lts'
